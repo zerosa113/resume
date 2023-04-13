@@ -1,0 +1,87 @@
+.header {
+  background-color: rgb(84, 84, 174);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.header img {
+  border-radius: 999px;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.header h1 {
+  color: white;
+  margin: 0 10px;
+}
+.header p {
+  color: white;
+  text-align: center;
+  width: 80%;
+  margin: 10px 10px;
+}
+
+.container {
+  padding: 0 40px;
+}
+.container .title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border-bottom: 2px solid rgb(11, 0, 80);
+}
+.container .title h2 {
+  padding-left: 20px;
+  margin: 10px;
+}
+.container .title h3 {
+  color: rgb(110, 158, 255);
+  margin: 10px;
+}
+
+.skill {
+  background-color: rgb(84, 84, 174);
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 0 50px;
+}
+.skill .skill-area {
+  width: 100%;
+  color: white;
+}
+.skill .skill-area .skill-title {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.skill .skill-area .deltails {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.skill .skill-area .deltails p {
+  margin: 5px;
+}
+
+.work-deltails ul > li > p {
+  color: rgb(127, 200, 255);
+}
+.work-deltails ul > li > p .row p {
+  color: black;
+}/*# sourceMappingURL=index.css.map */

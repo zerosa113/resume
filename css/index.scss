@@ -1,0 +1,98 @@
+.header {
+    background-color: rgb(84, 84, 174);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    img {
+        border-radius: 999px;
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    h1 {
+        color: white;
+        margin: 0 10px;
+    }
+
+    p {
+        color: white;
+        text-align: center;
+        width: 80%;
+        margin: 10px 10px;
+    }
+}
+
+.container {
+    padding: 0 40px;
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        border-bottom: 2px solid rgb(11, 0, 80);
+
+        h2 {
+            padding-left: 20px;
+            margin: 10px
+        }
+
+        h3 {
+            color: rgb(110, 158, 255);
+            margin: 10px
+        }
+    }
+}
+
+.skill {
+    background-color: rgb(84, 84, 174);
+    height: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 0 50px;
+
+    .skill-area {
+        width: 100%;
+        color: white;
+
+        .skill-title {
+            padding: 0 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            border-bottom: 2px solid rgb(255, 255, 255);
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .deltails {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 10px;
+
+            p {
+                margin: 5px;
+            }
+        }
+    }
+}
+
+.work-deltails ul>li>p {
+    color: rgb(127, 200, 255);
+
+    .row p {
+        color: black;
+    }
+}
